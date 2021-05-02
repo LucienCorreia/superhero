@@ -6,7 +6,7 @@ class BiographyEntity extends Equatable {
   final List<String> aliases;
   final String placeOfBirth;
   final String firstAppearance;
-  final String publisher;
+  final String? publisher;
   final String alignment;
 
   const BiographyEntity({
