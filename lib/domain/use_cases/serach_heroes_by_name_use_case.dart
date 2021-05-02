@@ -5,9 +5,11 @@ class SearchHeroresByNameUseCase {
     required List<HeroEntity> heroes,
     required String search,
   }) {
+    search = search.toLowerCase();
+
     return heroes
         .where(
-          (hero) => hero.name.startsWith(search),
+          (hero) => hero.name.toLowerCase().startsWith(search),
         )
         .toList();
   }
