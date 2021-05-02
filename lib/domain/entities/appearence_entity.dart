@@ -5,7 +5,7 @@ import 'weight_entity.dart';
 
 class AppearanceEntity extends Equatable {
   final String gender;
-  final String race;
+  final String? race;
   final String eyeColor;
   final String hairColor;
   final HeightEntity height;
