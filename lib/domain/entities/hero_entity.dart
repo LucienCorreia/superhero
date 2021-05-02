@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 
-import 'apparence_entity.dart';
+import 'appearence_entity.dart';
 import 'biography_entity.dart';
 import 'connections_entity.dart';
 import 'images_entity.dart';
@@ -12,7 +12,7 @@ class HeroEntity extends Equatable {
   final String name;
   final String slug;
   final PowerStatsEntity powerStats;
-  final ApparenceEntity apparence;
+  final AppearanceEntity appearance;
   final BiographyEntity biography;
   final WorkEntity work;
   final ConnectionsEntity connections;
@@ -23,7 +23,7 @@ class HeroEntity extends Equatable {
     required this.name,
     required this.slug,
     required this.powerStats,
-    required this.apparence,
+    required this.appearance,
     required this.biography,
     required this.work,
     required this.connections,
@@ -36,7 +36,7 @@ class HeroEntity extends Equatable {
         name,
         slug,
         powerStats,
-        apparence,
+        appearance,
         biography,
         work,
         connections,

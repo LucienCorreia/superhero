@@ -3,7 +3,7 @@ import 'package:equatable/equatable.dart';
 import 'height_entity.dart';
 import 'weight_entity.dart';
 
-class ApparenceEntity extends Equatable {
+class AppearanceEntity extends Equatable {
   final String gender;
   final String race;
   final String eyeColor;
@@ -11,7 +11,7 @@ class ApparenceEntity extends Equatable {
   final HeightEntity height;
   final WeightEntity weight;
 
-  const ApparenceEntity({
+  const AppearanceEntity({
     required this.gender,
     required this.race,
     required this.eyeColor,
