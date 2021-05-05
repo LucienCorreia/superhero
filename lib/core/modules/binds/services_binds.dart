@@ -5,8 +5,7 @@ import '../../../external/data_sources/hero/services/api_service.dart';
 class ServicesBinds {
   static final binds = [
     Bind<ApiService>(
-      (i) => ApiService(
-      ),
+      (i) => ApiService(),
       isLazy: false,
     ),
   ];

@@ -6,7 +6,6 @@ import 'core/modules/binds/services_binds.dart';
 import 'core/modules/binds/use_cases_binds.dart';
 import 'core/modules/home_module.dart';
 
-
 class AppModule extends Module {
   @override
   final List<Bind> binds = [
