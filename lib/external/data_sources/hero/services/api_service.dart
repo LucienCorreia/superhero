@@ -1,8 +1,9 @@
 import 'package:dio/dio.dart';
+import 'package:dio/native_imp.dart';
 
 import '../../../../core/consts/api_consts.dart';
 
-class ApiService with DioMixin {
+class ApiService extends DioForNative {
   ApiService() {
     _init();
   }
