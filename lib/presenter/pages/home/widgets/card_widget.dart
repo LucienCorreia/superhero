@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:superhero/presenter/themes/app_theme.dart';
 
 import '../../../../domain/entities/hero_entity.dart';
+import '../../../themes/app_theme.dart';
 
 class CardWidget extends StatelessWidget {
   final HeroEntity hero;

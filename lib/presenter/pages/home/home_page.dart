@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:superhero/presenter/themes/app_theme.dart';
 
 import '../../../domain/entities/hero_entity.dart';
+import '../../themes/app_theme.dart';
 import '../../widgets/load_notifier/load_notifier_builder_widget.dart';
 import 'home_state.dart';
 import 'widgets/card_widget.dart';
